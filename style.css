@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.hero-section {
+    height: 120vh;
+    background-image: url('imagens/tecnologia-futurista-abstrata.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main-header {
+    width: 100%;
+    padding: 20px 5%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-group-left,
+.nav-group-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo img {
+    height: 45px;
+    filter: brightness(0) invert(1);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #c0c0ff;
+}
+
+.nav-action-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+}
+
+.nav-action-button span {
+    font-size: 17px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero-content .subtitle {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.hero-content .description {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #f3f6f9;
+    color: #1e1e3f;
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+}
+
+.features-section {
+    background-color: #f3f6f9;
+    padding: 100px 20px;
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+}
+
+.features-card {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 30px 800px rgba(0, 0, 0, 0.1);
+    padding: 90px 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding: 0 15px;
+}
+
+.feature-item i {
+    font-size: 48px;
+    color: #2962ff;
+    margin-bottom: 25px;
+}
+
+.feature-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+}
