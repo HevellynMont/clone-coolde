@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+/* Regra */ @import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap'); /* Da pra pegar fontes do google fonts - dar preferencia por imports */
 
-body {
+/* Seletor */ body {
 
-    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    /* Declarações */ font-family: Epunda Slab, serif; /*Conjunto entre propriedades e valores -  serif, sans-serif, monospace, cursive, fantasy  */
 
     /* Medidas Absolutas
         cm, mm, in, px, pt, pc
@@ -15,13 +15,11 @@ body {
         16px geralmente = 1em
     */
 
-
     font-size: bolder;
     font-weight: bolder;
     text-decoration: underline;
 
     /*lighter normal bold bolder */
-
 
 }
 
