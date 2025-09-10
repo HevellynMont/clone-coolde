@@ -204,10 +204,10 @@ body {
 
 }
 
-.container-txt-for-img1  {
-    font-size:  20px;
+.container-txt-for-img1 {
+    font-size: 20px;
     position: relative;
-    top: 110px;
+    top: 30px;
     left: 1170px;
     width: 300px;
     height: auto;
@@ -216,18 +216,18 @@ body {
 
 .container-txt-for-img2 {
     position: relative;
-    top: 250px;
-    left: 350px;
+    top: 130px;
+    left: 340px;
     width: 300px;
     height: auto;
     text-align: center;
 }
 
 .container-txt-for-img3 {
-    
+
     position: relative;
-    top: 250px;
-    left: 350px;
+    top: 100px;
+    left: 1030px;
     width: 300px;
     height: auto;
     text-align: center;
