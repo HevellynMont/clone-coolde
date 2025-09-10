@@ -176,3 +176,59 @@ body {
     max-width: 50%;
 
 }
+
+.feature-img1 img {
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 350px;
+    left: 330px;
+
+}
+
+.feature-img2 img {
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 350px;
+    left: 1070px;
+
+}
+
+.feature-img3 img {
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 350px;
+    left: 330px;
+
+}
+
+.container-txt-for-img1  {
+    font-size:  20px;
+    position: relative;
+    top: 110px;
+    left: 1170px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.container-txt-for-img2 {
+    position: relative;
+    top: 250px;
+    left: 350px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.container-txt-for-img3 {
+    
+    position: relative;
+    top: 250px;
+    left: 350px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
