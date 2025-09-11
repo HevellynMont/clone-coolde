@@ -233,7 +233,7 @@ body {
 }
 
 .person-button {
-    background-color: #ff6b6b;
+    background-color: #ff745c;
     color: white;
     padding: 15px 30px;
     border-radius: 25px;
@@ -242,9 +242,6 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.person-button:hover {
-    background-color: #ff5252;
-}
 
 .feature-img2 {
     display: flex;
@@ -282,8 +279,8 @@ body {
 }
 
 .container-txt-for-img2 a {
-    background-color: #ffd93d;
-    color: #333;
+    background-color: #ffc801;
+    color: #ffffff;
     padding: 15px 30px;
     border-radius: 25px;
     text-decoration: none;
@@ -291,9 +288,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.container-txt-for-img2 a:hover {
-    background-color: #ffcc02;
-}
+
 
 .feature-img3 {
     display: flex;
@@ -332,15 +327,11 @@ body {
 }
 
 .container-txt-for-img3 a {
-    background-color: #ff6bb3;
+    background-color: #ffa2c5;
     color: white;
     padding: 15px 30px;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
-}
-
-.container-txt-for-img3 a:hover {
-    background-color: #ff4081;
 }
