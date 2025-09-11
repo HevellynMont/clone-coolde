@@ -9,14 +9,14 @@
 }
 
 body {
-    font-family: opensans, Helvetica, sans-serif;
+    font-family: 'Poppins', opensans, sans-serif;
     background-color: #ffffff;
     background-attachment: fixed;
 }
 
 .hero-section {
     height: 90vh;
-    background-image: url('imagens/tecnologia-futurista-abstrata.jpg');
+    background-image: url('../assets/image/jpg/tecnologia-futurista-abstrata.jpg');
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -179,58 +179,165 @@ body {
 
 }
 
+/* Seção body-img - tentativa de correção do posicionamento */
+.body-img {
+    margin-top: 300px;
+    padding: 50px 0;
+    position: relative;
+}
+
+.body-space {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Seção 1 do site */
+.feature-img1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
 .feature-img1 img {
-    width: 20%;
+    width: 400px;
     height: auto;
-    position: relative;
-    top: 350px;
-    left: 330px;
-
-}
-
-.feature-img2 img {
-    width: 20%;
-    height: auto;
-    position: relative;
-    top: 350px;
-    left: 1070px;
-
-}
-
-.feature-img3 img {
-    width: 20%;
-    height: auto;
-    position: relative;
-    top: 350px;
-    left: 330px;
-
 }
 
 .container-txt-for-img1 {
-    font-size: 20px;
-    position: relative;
-    top: 30px;
-    left: 1170px;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-top: -300px;
+    margin-right: 0;
+    width: 500px;
+    margin-left: auto;
+}
+
+.container-txt-for-img1 h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container-txt-for-img1 p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.person-button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.person-button:hover {
+    background-color: #ff5252;
+}
+
+.feature-img2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 100px 0 50px 0;
+}
+
+.feature-img2 img {
+    width: 400px;
     height: auto;
-    text-align: center;
 }
 
 .container-txt-for-img2 {
-    position: relative;
-    top: 130px;
-    left: 340px;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: -300px;
+    margin-left: 0;
+    width: 500px;
+}
+
+.container-txt-for-img2 h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container-txt-for-img2 p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.container-txt-for-img2 a {
+    background-color: #ffd93d;
+    color: #333;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.container-txt-for-img2 a:hover {
+    background-color: #ffcc02;
+}
+
+.feature-img3 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 100px 0 50px 0;
+}
+
+.feature-img3 img {
+    width: 400px;
     height: auto;
-    text-align: center;
 }
 
 .container-txt-for-img3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-top: -300px;
+    margin-right: 0;
+    width: 500px;
+    margin-left: auto;
+}
 
-    position: relative;
-    top: 100px;
-    left: 1030px;
-    width: 300px;
-    height: auto;
-    text-align: center;
+.container-txt-for-img3 h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container-txt-for-img3 p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.container-txt-for-img3 a {
+    background-color: #ff6bb3;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.container-txt-for-img3 a:hover {
+    background-color: #ff4081;
 }
