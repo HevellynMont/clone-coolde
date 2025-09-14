@@ -424,7 +424,7 @@ body {
 
 .feature-img6 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     margin: 100px 0 50px 0;
 }
 
@@ -436,11 +436,11 @@ body {
 .container-txt-for-img6 {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
+    align-items: flex-start;
+    text-align: left;
     margin-top: -300px;
     width: 500px;
-    margin-left: auto;
+    margin-left: 0;
 }
 
 .container-txt-for-img6 h2 {
@@ -457,25 +457,32 @@ body {
     margin-bottom: 30px;
 }
 
-.feature-img7 {
-    display: flex;
-    justify-content: flex-start;
-    margin: 100px 0 50px 0;
+.separator-bar {
+    width: 100%;
+    height: 100px;
+    background-color: #f1f4f8;
+    margin: 80px 0;
 }
 
-.feature-img7 img {
+.feature-img7 {
+    padding: 50px 0;
+}
+
+.feature-img7-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.feature-img7-content img {
     width: 400px;
     height: auto;
 }
 
 .container-txt-for-img7 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
-    margin-top: -300px;
     width: 500px;
     margin-left: auto;
+    text-align: right;
 }
 
 .container-txt-for-img7 h2 {
@@ -508,6 +515,119 @@ body {
 .trabalhe-button {
     background-color: #17a2b8;
     cursor: pointer;
+}
+
+.container-txt-for-img1,
+.container-txt-for-img2,
+.container-txt-for-img3,
+.container-txt-for-img4,
+.container-txt-for-img5 {
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial-section {
+    padding: 100px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-section .pre-title {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.testimonial-section h2 {
+    font-size: 42px;
+    color: #1e1e3f;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.slider-viewport {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.slide .fa-quote-left {
+    font-size: 32px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.slide .quote {
+    font-size: 22px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.slide .company-logo {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.slide .author {
+    font-weight: bold;
+    color: #0000ff;
+}
+
+.slide .author span {
+    color: #555;
+    font-weight: normal;
+}
+
+.slider-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.nav-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    object-fit: cover;
+}
+
+.nav-avatar:hover {
+    transform: scale(1.1);
+}
+
+.nav-avatar.active {
+    border-color: #0000ff;
+    transform: scale(1.15);
 }
 
 @media (max-width: 1200px) {
@@ -570,6 +690,10 @@ body {
         width: 50%;
     }
 
+    .feature-img7-content {
+        margin-top: 0;
+    }
+
     .container-txt-for-img1 h2,
     .container-txt-for-img2 h2,
     .container-txt-for-img3 h2,
@@ -586,8 +710,15 @@ body {
     .feature-img4 img,
     .feature-img5 img,
     .feature-img6 img,
-    .feature-img7 img {
+    .feature-img7-content img {
         width: 300px;
+    }
+
+    .testimonial-section h2 {
+        font-size: 32px;
+    }
+    .slide .quote {
+        font-size: 18px;
     }
 }
 
@@ -614,6 +745,7 @@ body {
         height: 100vh;
         background-attachment: scroll;
         padding-bottom: 0;
+        padding-top: 85px;
     }
 
     .hero-content {
@@ -649,9 +781,10 @@ body {
     .feature-img4,
     .feature-img5,
     .feature-img6,
-    .feature-img7 {
+    .feature-img7-content {
         justify-content: center;
         margin-bottom: 20px;
+        flex-direction: column;
     }
     
     .container-txt-for-img1,
