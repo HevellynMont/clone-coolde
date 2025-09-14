@@ -74,7 +74,22 @@ body {
 
 .logo img {
     height: 45px;
-    filter: brightness(0) invert(1);
+}
+
+.logo .logo-dark {
+    display: none;
+}
+
+.logo .logo-white {
+    display: block;
+}
+
+.main-header.scrolled .logo .logo-dark {
+    display: block;
+}
+
+.main-header.scrolled .logo .logo-white {
+    display: none;
 }
 
 .nav-links {
