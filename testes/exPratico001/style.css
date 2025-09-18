@@ -8,36 +8,57 @@ seletor {
 
 body {
     background-color: #084063;
+    font: normal 17pt Arial;
 }
 
 header {
-    font: normal 1.2rem Arial;
     color: white;
-    position: relative;
-    top: 40px;
-    left: 350px;
+    text-align: center;
 }
 
 section {
     background-color: white;
-    border: 2px solid white;
     border-radius: 10px;
-    position: relative;
-    top: 40px;
-    left: 176px;
+    padding: 15px;
     width: 500px;
-    height: 500px;
-    box-shadow: 10%;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+
+    /*
+    Shorthand (ou notação abreviada em português).  shorthand da propriedade box-shadow, que pode incluir:
+
+    offset-x (3px)
+    
+    offset-y (3px)
+    
+    blur-radius (10px)
+    
+    color (rgba(0, 0, 0, 0.363))  
+    
+    Existem várias outras propriedades que suportam shorthand, como:
+
+margin (ao invés de margin-top, margin-right, etc.)
+
+padding
+
+background
+
+font
+
+border
+    */
+
 }
 
-.meio-campo {}
+/*.meio-campo {}
 
 #campo1 {
     font: normal 1.2rem Arial;
     border: 2px solid black;
     position: relative;
     top: 55px;
-    text-align: center;;
+    text-align: center;
+    ;
 }
 
 #campo2 {
@@ -54,6 +75,21 @@ section {
     width: 30%;
     height: 30%;
     border-radius: 90%;
+} */
+
+#imagem {
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+
+}
+div {
+    text-align: center;
+    padding: 8px;
 }
 
-footer {}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

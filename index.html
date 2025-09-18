@@ -5,202 +5,232 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coolde | Cursos de Programação Grátis</title>
+
     <link rel="shortcut icon" href="assets/image/ico/icon-logo-coolde.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
 
-    <header class="main-header">
-        <nav class="navbar">
-            <div class="nav-group-left">
-                <a href="index.html" class="logo">
-                    <img class="logo-white" src="assets/image/png/logo-light.png" alt="Logo Coolde">
-                    <img class="logo-dark" src="assets/image/png/icon-logo-coolde.png" alt="Logo Coolde">
+    <header class="cabecalho-principal">
+        <nav class="barra-navegacao container">
+            <div class="navegacao-grupo-esquerda">
+                <a href="index.html" class="logotipo">
+                    <img class="logotipo-branco" src="assets/image/png/logo-light.png" alt="Logotipo Coolde">
+                    <img class="logotipo-escuro" src="assets/image/png/icon-logo-coolde.png"
+                        alt="Logotipo Coolde Ícone">
                 </a>
-                <ul class="nav-links">
+                <ul class="navegacao-links">
                     <li><a href="models/sobre.html">Sobre nós</a></li>
                     <li><a href="models/blog.html">Blog</a></li>
                     <li><a href="models/contato.html">Fale Conosco</a></li>
                 </ul>
             </div>
 
-            <div class="nav-group-right">
-                <a href="models/login.html" class="nav-action-button">
+            <div class="navegacao-grupo-direita">
+                <a href="models/login.html" class="botao-acao">
                     <i class="fa-solid fa-right-to-bracket"></i> <span>Entrar</span>
                 </a>
-                <a href="models/matricula.html" class="nav-action-button">
+                <a href="models/matricula.html" class="botao-acao">
                     <i class="fa-solid fa-user-plus"></i> <span>Matricule-se</span>
                 </a>
             </div>
         </nav>
     </header>
 
-    <section class="hero-section">
-        <div class="hero-content">
-            <h1>Coolde</h1>
-            <p class="subtitle">Aprenda a programar de maneira rápida, eficiente e gratuita!</p>
-            <p class="description">A primeira plataforma com cursos feitos por uma IA</p>
-            <a href="#" class="cta-button">Comece Agora</a>
-        </div>
-    </section>
+    <main class="conteudo-principal">
 
-    <main class="main-content">
+        <section class="secao-apresentacao">
+            <div class="apresentacao-conteudo">
+                <h1>Coolde</h1>
+                <p class="subtitulo">Aprenda a programar de maneira rápida, eficiente e gratuita!</p>
+                <p class="descricao">A primeira plataforma com cursos feitos por uma IA.</p>
+                <a href="#" class="botao-chamada-acao">Comece Agora</a>
+            </div>
+        </section>
 
-        <section class="features-section">
-            <div class="features-card">
-                <div class="feature-item">
+        <section class="secao-vantagens">
+            <div class="cartao-vantagens container">
+                <div class="item-vantagem">
                     <i class="fa-solid fa-dollar-sign"></i>
                     <h3>100% Gratuito</h3>
-                    <p>Você não paga nada para aprender no coolde, nunca!</p>
+                    <p>Você não paga nada para aprender no Coolde, nunca!</p>
                 </div>
-                <div class="feature-item">
+                <div class="item-vantagem">
                     <i class="fa-solid fa-globe"></i>
                     <h3>Estude de qualquer lugar</h3>
                     <p>Aprenda de qualquer lugar, a qualquer hora!</p>
                 </div>
-                <div class="feature-item">
+                <div class="item-vantagem">
                     <i class="fa-solid fa-arrows-rotate"></i>
                     <h3>Sempre atualizado</h3>
-                    <p>O conteúdo do coolde está sempre em constante atualização!</p>
+                    <p>O conteúdo do Coolde está sempre em constante atualização!</p>
                 </div>
             </div>
         </section>
 
-        <section class="body-img">
-            <div class="body-space">
-                <div class="feature-img1"><img src="assets/image/webp/programacao-php-gitl.webp" alt="Garota php"></div>
-                <div class="container-txt-for-img1">
-                    <h2>Programação</h2>
-                    <p>Lógica, Python, PHP, Java, .NET, C++. Essas e muitas outras linguagens estarão <br> disponíveis para
-                        te acompanhar na jornada de se tornar um programador.</p>
-                    <a href="models/programacao.html" class="person-button">Quero me tornar um dev</a>
-                </div>
+        <section class="secao-cursos">
+            <div class="container">
 
-                <div class="feature-img2"><img src="assets/image/webp/web-boy-yellow.webp" alt="Garota html"></div>
-                <div class="container-txt-for-img2">
-                    <h2>Web</h2>
-                    <p>Aprenda a desenvolver a parte visual de aplicações Web incríveis utilizando as ferramentas mais
-                        populares do mercado. Além disso, você ganhará a habilidade de conectar o Front-end ao Back-end.</p>
-                    <a href="models/web.html">Quero fazer sites incríveis</a>
-                </div>
+                <article class="curso-item">
+                    <div class="curso-imagem">
+                        <img src="assets/image/webp/programacao-php-gitl.webp" alt="Ilustração do curso de programação">
+                    </div>
+                    <div class="curso-texto">
+                        <h2>Programação</h2>
+                        <p>Lógica, Python, PHP, Java, .NET, C++. Essas e muitas outras linguagens estarão disponíveis
+                            para te acompanhar na jornada de se tornar um programador.</p>
+                        <a href="models/programacao.html" class="botao-curso">Quero me tornar um dev</a>
+                    </div>
+                </article>
 
-                <div class="feature-img3"><img src="assets/image/webp/design-girl-pencil.webp" alt="Garota lápis"></div>
-                <div class="container-txt-for-img3">
-                    <h2>Design</h2>
-                    <p>Aprenda a criar interfaces gráficas incríveis para seus projetos, desenvolvendo habilidades em
-                        diferentes áreas. Explore os principais conceitos de UX e UI e descubra como aplicá-los na prática
-                        para criar experiências excepcionais para seus usuários.</p>
-                    <a href="models/design.html">Quero aprender design</a>
-                </div>
+                <article class="curso-item">
+                    <div class="curso-imagem">
+                        <img src="assets/image/webp/web-boy-yellow.webp"
+                            alt="Ilustração do curso de desenvolvimento web">
+                    </div>
+                    <div class="curso-texto">
+                        <h2>Web</h2>
+                        <p>Aprenda a desenvolver a parte visual de aplicações Web incríveis utilizando as ferramentas
+                            mais populares do mercado. Além disso, você ganhará a habilidade de conectar o Front-end ao
+                            Back-end.</p>
+                        <a href="models/web.html" class="botao-curso">Quero fazer sites incríveis</a>
+                    </div>
+                </article>
 
-                <div class="feature-img4"><img src="assets/image/webp/dados-notebook.webp" alt="garota pc"> </div>
-                <div class="container-txt-for-img4">
-                    <h2>Dados</h2>
-                    <p>O incrível mundo dos dados. BI, SQL e Banco de Dados, Excel, Machine Learning, NoSQL, Estatística e
-                        muito
-                        mais. Essas são algumas dos tópicos existentes dentro dessa área e que compõem os profissionais mais
-                        requisitados do mercado de TI.</p>
-                    <button class="dados-button">Em breve</button>
-                </div>
+                <article class="curso-item">
+                    <div class="curso-imagem">
+                        <img src="assets/image/webp/design-girl-pencil.webp" alt="Ilustração do curso de design">
+                    </div>
+                    <div class="curso-texto">
+                        <h2>Design</h2>
+                        <p>Aprenda a criar interfaces gráficas incríveis para seus projetos. Explore os principais
+                            conceitos de UX e UI e descubra como aplicá-los na prática para criar experiências
+                            excepcionais.</p>
+                        <a href="models/design.html" class="botao-curso">Quero aprender design</a>
+                    </div>
+                </article>
 
-                <div class="feature-img5"><img src="assets/image/webp/engenharia-engrenagem.webp" alt="Garota engrenagem"> </div>
-                <div class="container-txt-for-img5">
-                    <h2>Engenharia de Software</h2>
-                    <p>Aprenda tudo sobre o ciclo de vida de um software, desde a análise de requisitos, passando pelo
-                        projeto, implementação, teste, gerenciamento e garantia de qualidade. Além disso, você irá se
-                        aprofundar em tópicos como CI/CD e segurança, para garantir que seus softwares sejam construídos com
-                        excelência e confiança.</p>
-                    <button class="dados-button">Em breve</button>
-                </div>
+                <article class="curso-item">
+                    <div class="curso-imagem">
+                        <img src="assets/image/webp/dados-notebook.webp" alt="Ilustração do curso de dados">
+                    </div>
+                    <div class="curso-texto">
+                        <h2>Dados</h2>
+                        <p>O incrível mundo dos dados. BI, SQL, Excel, Machine Learning e muito mais. Esses são alguns
+                            dos tópicos que compõem os profissionais mais requisitados do mercado de TI.</p>
+                        <button class="botao-em-breve" disabled>Em breve</button>
+                    </div>
+                </article>
 
-                <div class="feature-img6"><img src="assets/image/books2-idosa.svg" alt="Garota biblioteca"> </div>
-                <div class="container-txt-for-img6">
-                    <h2>Biblioteca Tech</h2>
-                    <p>Encontre os melhores livros da área de TI e ajude-se nos estudos.</p>
-                    <button class="dados-button">Em breve</button>
-                </div>
+                <article class="curso-item">
+                    <div class="curso-imagem">
+                        <img src="assets/image/webp/engenharia-engrenagem.webp"
+                            alt="Ilustração do curso de engenharia de software">
+                    </div>
+                    <div class="curso-texto">
+                        <h2>Engenharia de Software</h2>
+                        <p>Aprenda tudo sobre o ciclo de vida de um software, desde a análise de requisitos, passando
+                            pelo projeto, implementação, teste, e garantia de qualidade.</p>
+                        <button class="botao-em-breve" disabled>Em breve</button>
+                    </div>
+                </article>
+
+                <article class="curso-item">
+                    <div class="curso-imagem">
+                        <img src="assets/image/books2-idosa.svg" alt="Ilustração da biblioteca tech">
+                    </div>
+                    <div class="curso-texto">
+                        <h2>Biblioteca Tech</h2>
+                        <p>Encontre os melhores livros da área de TI e ajude-se nos estudos.</p>
+                        <button class="botao-em-breve" disabled>Em breve</button>
+                    </div>
+                </article>
+
             </div>
         </section>
 
-        <section class="separator-bar"></section>
+        <div class="barra-separadora"></div>
 
-        <section class="testimonial-section">
-            <div class="testimonial-container">
-                <p class="pre-title">Ainda em dúvida se deve entrar nessa?</p>
+        <section class="secao-depoimentos">
+            <div class="depoimentos-container container">
+                <p class="pre-titulo">Ainda em dúvida se deve entrar nessa?</p>
                 <h2>Dá uma olhada no que esses caras acham da sua incerteza</h2>
 
-                <div class="slider-viewport">
-                    <div class="slider-wrapper">
-                        <div class="slide">
+                <div class="slider-visualizacao">
+                    <div class="slider-conteudo">
+                        <div class="depoimento">
                             <i class="fas fa-quote-left"></i>
-                            <p class="quote">Programar é algo muito simples. É muito mais sobre adição e subtração do que códigos complexos ou problemas infinitos.</p>
-                            <img src="assets/image/png/microsoft.png" alt="Logo Microsoft" class="company-logo">
-                            <p class="author">BILL GATES | <span>Fundador da Microsoft</span></p>
+                            <p class="citacao">Programar é algo muito simples. É muito mais sobre adição e subtração do
+                                que códigos complexos ou problemas infinitos.</p>
+                            <img src="assets/image/png/microsoft.png" alt="Logo Microsoft" class="logotipo-empresa">
+                            <p class="autor">BILL GATES | <span>Fundador da Microsoft</span></p>
                         </div>
-                        <div class="slide">
+                        <div class="depoimento">
                             <i class="fas fa-quote-left"></i>
-                            <p class="quote">Todos deveriam aprender a programar pois te ensina a pensar.</p>
-                            <img src="assets/image/png/apple.png" alt="Logo Apple" class="company-logo">
-                            <p class="author">STEVE JOBS | <span>Fundador da Apple</span></p>
+                            <p class="citacao">Todos deveriam aprender a programar pois te ensina a pensar.</p>
+                            <img src="assets/image/png/apple.png" alt="Logo Apple" class="logotipo-empresa">
+                            <p class="autor">STEVE JOBS | <span>Fundador da Apple</span></p>
                         </div>
-                        <div class="slide">
+                        <div class="depoimento">
                             <i class="fas fa-quote-left"></i>
-                            <p class="quote">Você não precisa ser um gênio da matemática ou da computação para conseguir programar. Basta ter vontade de construir algo e querer se divertir com isso.</p>
-                            <img src="assets/image/jpg/meta.jpg" alt="Logo Meta" class="company-logo">
-                            <p class="author">MARK ZUCKERBERG | <span>Criador da Meta</span></p>
+                            <p class="citacao">Você não precisa ser um gênio da matemática para conseguir programar.
+                                Basta ter vontade de construir algo e querer se divertir com isso.</p>
+                            <img src="assets/image/jpg/meta.jpg" alt="Logo Meta" class="logotipo-empresa">
+                            <p class="autor">MARK ZUCKERBERG | <span>Criador da Meta</span></p>
                         </div>
-                        <div class="slide">
+                        <div class="depoimento">
                             <i class="fas fa-quote-left"></i>
-                            <p class="quote">Programação é o que temos de mais próximo de um super-poder, pois é a única profissão que te permite sentar na frente de um computador e construir algo completamente novo, nunca antes visto.</p>
-                            <img src="assets/image/png/dropbox.png" alt="Logo Dropbox" class="company-logo">
-                            <p class="author">DREW HOUSTON | <span>Criador do Dropbox</span></p>
+                            <p class="citacao">Programação é o que temos de mais próximo de um super-poder, pois é a
+                                única profissão que te permite construir algo completamente novo.</p>
+                            <img src="assets/image/png/dropbox.png" alt="Logo Dropbox" class="logotipo-empresa">
+                            <p class="autor">DREW HOUSTON | <span>Criador do Dropbox</span></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="slider-nav">
-                    <img src="assets/image/bill.jfif" alt="Bill Gates" class="nav-avatar active">
-                    <img src="assets/image/jpg/jobs.jpg" alt="Steve Jobs" class="nav-avatar">
-                    <img src="assets/image/jpg/zuck.jpg" alt="Mark Zuckerberg" class="nav-avatar">
-                    <img src="assets/image/jpg/drew.jpg" alt="Drew Houston" class="nav-avatar">
+                <div class="slider-navegacao">
+                    <img src="assets/image/bill.jfif" alt="Bill Gates" class="avatar-navegacao ativo">
+                    <img src="assets/image/jpg/jobs.jpg" alt="Steve Jobs" class="avatar-navegacao">
+                    <img src="assets/image/jpg/zuck.jpg" alt="Mark Zuckerberg" class="avatar-navegacao">
+                    <img src="assets/image/jpg/drew.jpg" alt="Drew Houston" class="avatar-navegacao">
                 </div>
             </div>
         </section>
 
-        <section class="separator-bar"></section>
+        <div class="barra-separadora"></div>
 
-        <section class="feature-img7">
-            <div class="body-space">
-                <div class="feature-img7-content">
-                    <img src="assets/image/jobs2.svg" alt="Garota trabalhe">
-                    <div class="container-txt-for-img7">
-                        <h2>Trabalhe com Tecnologia</h2>
-                        <p>Procurando por oportunidades de trabalho na área de TI?</p>
-                        <button class="trabalhe-button">Encontrar uma vaga</button>
-                    </div>
+        <section class="secao-vagas">
+            <div class="vagas-conteudo container">
+                <img src="assets/image/jobs2.svg" alt="Ilustração sobre vagas de emprego em tecnologia">
+                <div class="vagas-texto">
+                    <h2>Trabalhe com Tecnologia</h2>
+                    <p>Procurando por oportunidades de trabalho na área de TI?</p>
+                    <button class="botao-encontrar-vaga">Encontrar uma vaga</button>
                 </div>
             </div>
         </section>
 
-        <section class="cta-section">
-            <div class="cta-container">
+        <section class="secao-chamada-final">
+            <div class="chamada-final-container container">
                 <i class="fas fa-code"></i>
                 <h2>Sabe quando você pode começar? Agora! Sem pagar nada!</h2>
-                <a href="#" class="cta-button-footer">Comece Agora</a>
+                <a href="#" class="botao-chamada-rodape">Comece Agora</a>
             </div>
         </section>
 
     </main>
 
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-column footer-about">
-                <img src="assets/image/png/logo-light.png" alt="Logo Coolde" class="footer-logo">
+    <footer class="rodape-site">
+        <div class="rodape-container container">
+            <div class="rodape-coluna rodape-sobre">
+                <img src="assets/image/png/logo-light.png" alt="Logotipo Coolde" class="rodape-logotipo">
                 <p>Coolde, sua plataforma para aprender programação de forma eficiente e totalmente gratuita.</p>
             </div>
-            <div class="footer-column">
+            <div class="rodape-coluna">
                 <h4>Infos</h4>
                 <ul>
                     <li><a href="#">Sobre Nós</a></li>
@@ -208,7 +238,7 @@
                     <li><a href="#">Contabilizador</a></li>
                 </ul>
             </div>
-            <div class="footer-column">
+            <div class="rodape-coluna">
                 <h4>Produtos</h4>
                 <ul>
                     <li><a href="#">Web</a></li>
@@ -216,7 +246,7 @@
                     <li><a href="#">Programação</a></li>
                 </ul>
             </div>
-            <div class="footer-column">
+            <div class="rodape-coluna">
                 <h4>Recursos</h4>
                 <ul>
                     <li><a href="#">Livros</a></li>
@@ -225,8 +255,8 @@
                 </ul>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="footer-container">
+        <div class="rodape-inferior">
+            <div class="container">
                 <hr>
                 <p>© 2025 Coolde - Todos os direitos reservados</p>
             </div>

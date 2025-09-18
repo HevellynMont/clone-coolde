@@ -1,2 +1,2 @@
-let vel = 60.5
-console.log(`a velocidade do seu carro é ${vel} Km/h`)
+let vel = 60.5;
+console.log(`a velocidade do seu carro é ${vel} Km/h`);
